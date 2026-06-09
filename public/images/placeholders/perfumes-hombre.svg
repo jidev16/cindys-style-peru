@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Placeholder perfumes para hombre">
+  <rect width="640" height="480" fill="#e9f0f5"/>
+  <circle cx="490" cy="120" r="82" fill="#b7d5e8" opacity=".65"/>
+  <rect x="250" y="122" width="140" height="240" rx="30" fill="#4f6f85"/>
+  <rect x="282" y="78" width="76" height="58" rx="10" fill="#2e4658"/>
+  <rect x="274" y="178" width="92" height="86" rx="12" fill="#99c7e0" opacity=".75"/>
+  <path d="M105 358c44-82 98-126 160-132 22 62-4 105-78 132H105Z" fill="#d8e9d6"/>
+  <text x="320" y="426" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#4d3029">Perfumes para hombre</text>
+</svg>

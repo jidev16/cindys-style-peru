@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-label="Placeholder cuidado corporal">
+  <rect width="640" height="480" fill="#fff6ec"/>
+  <rect x="188" y="112" width="126" height="248" rx="38" fill="#f2d4a8"/>
+  <rect x="216" y="78" width="70" height="54" rx="14" fill="#a77c72"/>
+  <rect x="345" y="142" width="112" height="210" rx="28" fill="#cdb0e4"/>
+  <rect x="365" y="104" width="72" height="48" rx="12" fill="#9c6dbb"/>
+  <path d="M105 360c28-78 72-130 132-158 38 54 18 112-56 158H105Z" fill="#f9e6d3"/>
+  <text x="320" y="426" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#7a5047">Cuidado corporal</text>
+</svg>

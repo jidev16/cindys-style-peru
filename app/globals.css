@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --brand-warm-white: #fffaf7;
+  --brand-white: #ffffff;
+  --brand-brown: #6b3f38;
+  --brand-brown-muted: #7a5047;
+  --brand-brown-soft: #a77c72;
+  --brand-lilac: #cdb0e4;
+  --brand-lilac-soft: #f3e9fa;
+  --brand-lilac-panel: #f8f1fb;
+  --brand-lilac-deep: #a97fc9;
+  --brand-lilac-button: #b892d4;
+  --brand-purple: #7a4b95;
+  --brand-purple-soft: #9c6dbb;
+  --brand-rose: #d66f91;
+  --brand-line: #eadbd5;
+  --brand-foreground: #4d3029;
+  --whatsapp: #25d366;
+  --whatsapp-hover: #20bf5a;
+  --background: var(--brand-warm-white);
+  --foreground: var(--brand-foreground);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand-warm-white: var(--brand-warm-white);
+  --color-brand-white: var(--brand-white);
+  --color-brand-brown: var(--brand-brown);
+  --color-brand-brown-muted: var(--brand-brown-muted);
+  --color-brand-brown-soft: var(--brand-brown-soft);
+  --color-brand-lilac: var(--brand-lilac);
+  --color-brand-lilac-soft: var(--brand-lilac-soft);
+  --color-brand-lilac-panel: var(--brand-lilac-panel);
+  --color-brand-lilac-deep: var(--brand-lilac-deep);
+  --color-brand-lilac-button: var(--brand-lilac-button);
+  --color-brand-purple: var(--brand-purple);
+  --color-brand-purple-soft: var(--brand-purple-soft);
+  --color-brand-rose: var(--brand-rose);
+  --color-brand-line: var(--brand-line);
+  --color-whatsapp: var(--whatsapp);
+  --color-whatsapp-hover: var(--whatsapp-hover);
+  --font-sans: "Geist", "Geist Fallback", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: var(--brand-lilac);
+  color: var(--brand-white);
+}
