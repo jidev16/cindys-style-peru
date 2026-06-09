@@ -17,7 +17,7 @@ const metadataBase = new URL(siteUrl);
 const title = "Cindy’s Style Perú — Perfumería y Maquillaje en Lima";
 const description =
   "Perfumes, maquillaje y cuidado personal con entrega en Lima Metropolitana. Pedidos por WhatsApp.";
-const ogImageUrl = "https://cindystyleperu.com/images/og-cover.png";
+const ogImageUrl = "https://cindystyleperu.com/images/og-cover.jpg";
 
 export const metadata: Metadata = {
   metadataBase,
