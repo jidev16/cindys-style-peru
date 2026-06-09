@@ -17,26 +17,33 @@ const metadataBase = new URL(siteUrl);
 const title = "Cindy’s Style Perú — Perfumería y Maquillaje en Lima";
 const description =
   "Perfumes, maquillaje y cuidado personal con entrega en Lima Metropolitana. Pedidos por WhatsApp.";
+const ogImageUrl = "https://cindystyleperu.com/images/og-cover.png";
 
 export const metadata: Metadata = {
   metadataBase,
   title,
   description,
   openGraph: {
+    url: "https://cindystyleperu.com",
+    siteName: "Cindy’s Style Perú",
     title,
     description,
-    url: "https://cindystyleperu.com",
+    locale: "es_PE",
+    type: "website",
     images: [
       {
-        url: "/images/og-cover.png",
+        url: ogImageUrl,
         width: 1200,
         height: 630,
-        alt: "Cindy’s Style Perú, perfumería y maquillaje en Lima",
+        alt: "Cindy’s Style Perú - Perfumería, maquillaje y cuidado personal en Lima",
       },
     ],
-    locale: "es_PE",
-    siteName: "Cindy’s Style Perú",
-    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: [ogImageUrl],
   },
 };
 
