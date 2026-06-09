@@ -1,14 +1,14 @@
 import type { MetadataRoute } from "next";
 
-const siteUrl = "https://www.cindystyleperu.com";
-
-const routes = ["/", "/#inicio", "/#catalogo", "/#como-comprar", "/#envios"];
+const siteUrl = "https://cindystyleperu.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map((route) => ({
-    url: `${siteUrl}${route}`,
-    lastModified: new Date(),
-    changeFrequency: "weekly",
-    priority: route === "/" ? 1 : 0.8,
-  }));
+  return [
+    {
+      url: `${siteUrl}/`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 1,
+    },
+  ];
 }

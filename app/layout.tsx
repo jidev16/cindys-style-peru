@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://cindystyleperu.com";
 const metadataBase = new URL(siteUrl);
 const title = "Cindy’s Style Perú — Perfumería y Maquillaje en Lima";
 const description =
@@ -25,6 +25,7 @@ export const metadata: Metadata = {
   openGraph: {
     title,
     description,
+    url: "https://cindystyleperu.com",
     images: [
       {
         url: "/images/og-cover.png",
